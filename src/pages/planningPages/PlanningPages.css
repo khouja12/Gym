@@ -1,0 +1,22 @@
+.fullC{
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 50px;
+    }
+    
+    
+    .calendar {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+      }
+      
+      .calendar__day {
+        border: 1px solid #ccc;
+        padding: 1rem;
+        text-align: center;
+      }
+      
+      .calendar__day--selected {
+        color: #fff;
+      }
+    
